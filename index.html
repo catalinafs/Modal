@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Abrir Modales con botones">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+</head>
+
+<body>
+    <main class="MainContainer">
+        <div class="ContainerButtons">
+            <button id="OpenFirstModal">Open Modal #1</button>
+            <button id="OpenSecondModal">Open Modal #2</button>
+        </div>
+
+        <!-- FIRST MODAL -->
+        <div id="ContainerModal" class="ContainerModal">
+            <div class="SubcontainerModal">
+                <div class="Modal">
+                    <button id="CloseButton">x</button>
+                    <div class="ContainerCard">
+                        <h2>First Modal</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni totam necessitatibus quibusdam molestiae praesentium? Nemo amet velit corporis rerum, a nulla molestias iure, aliquam eaque est modi obcaecati quia quidem.
+                        </p>
+                        <div class="SocialMedia">
+                            <a>LinkedIn</a>
+                            <a>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECOND MODAL -->
+        <div id="ContainerSecondModal" class="ContainerModal">
+            <div class="SubcontainerModal">
+                <div class="Modal">
+                    <button id="CloseSecondButton">x</button>
+                    <div class="ContainerCard">
+                        <h2>Second Modal</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni totam necessitatibus quibusdam molestiae praesentium? Nemo amet velit corporis rerum, a nulla molestias iure, aliquam eaque est modi obcaecati quia quidem.
+                        </p>
+                        <div class="SocialMedia">
+                            <a 
+                                href="https://www.linkedin.com/in/catalina-forero-suarez-83a0b61b5"
+                                target="_blank"
+                            >LinkedIn</a>
+                            <a href="https://github.com/catalinafs" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./index.js"></script>
+
+</html>
